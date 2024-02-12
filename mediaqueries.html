@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td,th{
+            border: 1px solid black;
+            width: 60%;
+        }
+        @media screen and (min-width:0px) and (max-width:200px) {
+            table{
+                background-color: aqua;
+            }
+        }
+        @media screen and (min-width:201px) and (max-width:425px){
+            table{
+                background-color: greenyellow;
+            }
+            .form{
+                display: none;
+            }
+        }
+        @media screen and (min-width:426px) and (max-width:580px){
+            table{
+                color: red;
+            }
+            form{
+                background-color: yellow;
+            } 
+        }
+        @media screen and (min-width:581px) and (max-width:680px) {
+            form{
+                background-color: tomato;
+            }
+            table{
+                display: none;
+            }
+        
+            }
+            @media screen and (min-width:681px) and (max-width:800px) {
+                form{
+                    color: darkblue;
+                }
+                table{
+                    background-color: aquamarine;
+                }
+            }
+            @media screen and (min-width:801px) and (max-width:1025px){
+                table{
+                    display: none;
+                }
+                form{
+                    background-color: blueviolet;
+                }
+            }
+            @media screen and (min-width:1026px) and (max-width:1425px){
+                form{
+                    display:none;
+                }
+                table{
+                    background-color:lightgray;
+                }
+            }
+
+    </style>
+</head>
+<body>
+    <div class="table">
+        <table>
+            <tr>
+                <th>S.no</th>
+                <th>Name</th>
+                <th>F_name</th>
+                <th>Mobile</th>
+                <th>Mail</th>
+                <th>Designation</th>
+                <th>emp_code</th>
+                <th>Company</th>
+                <th>Address</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Vijay</td>
+                <td>Veeraiah</td>
+                <td>7898745612</td>
+                <td>vijay@gmail.com</td>
+                <td>Software eng</td>
+                <td>emp001</td>
+                <td>tcs</td>
+                <td>mumbai</td>
+                <td>80,000</td> 
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>praveen</td>
+                <td>sampath</td>
+                <td>8582868912</td>
+                <td>praveen@gmail.com</td>
+                <td>ui designer</td>
+                <td>emp002</td>
+                <td>cognizant</td>
+                <td>hyd</td>
+                <td>50,000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>shiva</td>
+                <td>chandraiah</td>
+                <td>7985868456</td>
+                <td>shiva@gmail.com</td>
+                <td>web developer</td>
+                <td>emp003</td>
+                <td>mantri</td>
+                <td>lucknow</td>
+                <td>60,000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Amruth</td>
+                <td>satyam</td>
+                <td>9895969478</td>
+                <td>amruth@gmail.com</td>
+                <td>app developer</td>
+                <td>emp004</td>
+                <td>capgemini</td>
+                <td>chennai</td>
+                <td>85,000</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Vijay</td>
+                <td>Veeraiah</td>
+                <td>7898745612</td>
+                <td>vijay@gmail.com</td>
+                <td>Software eng</td>
+                <td>emp005</td>
+                <td>tcs</td>
+                <td>mumbai</td>
+                <td>80,000</td> 
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>praveen</td>
+                <td>sampath</td>
+                <td>8582868912</td>
+                <td>praveen@gmail.com</td>
+                <td>ui designer</td>
+                <td>emp006</td>
+                <td>cognizant</td>
+                <td>hyd</td>
+                <td>50,000</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>shiva</td>
+                <td>chandraiah</td>
+                <td>7985868456</td>
+                <td>shiva@gmail.com</td>
+                <td>web developer</td>
+                <td>emp007</td>
+                <td>mantri</td>
+                <td>lucknow</td>
+                <td>60,000</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Amruth</td>
+                <td>satyam</td>
+                <td>9895969478</td>
+                <td>amruth@gmail.com</td>
+                <td>app developer</td>
+                <td>emp008</td>
+                <td>capgemini</td>
+                <td>chennai</td>
+                <td>85,000</td>
+                
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>nikil</td>
+                <td>yadaiah</td>
+                <td>8684858987</td>
+                <td>nikil@gmail.com</td>
+                <td>interior designer</td>
+                <td>emp009</td>
+                <td>wipro</td>
+                <td>hyd</td>
+                <td>90,000</td>
+            </tr>
+        </table>
+        <div class="form">
+            <form>
+                <h1>Survey Form</h1>
+    <h4>(Free code camp)</h4>
+
+    <tr>
+      <td><label for="fname">*First name</label></td>
+      <td><input type="text" id="fname" name="f_name" required/></td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td><label for="lname">*Last name</label></td>
+      <td><input type="text" id="lname" name="l_name" required /></td>
+    </tr>
+    <br /><br />
+    <tr>
+      <td><label for="num">*Mobile</label></td>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <td><input type="tel" id="num" name="ph no" required/></td>
+    </tr>
+    <br /><br />
+    <tr>
+      <td><label for="mail">*Email</label></td>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <td><input type="email" id="mail" name="mailid" required/></td>
+    </tr>
+    <br /><br />
+    <tr>
+      <td><label for="dob">*DOB</label></td>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <td><input type="date" id="dob" name="DOB" required /></td>
+    </tr>
+    <br /><br />
+    <label><b>Select you qualification:</b></label>
+    <select for="course">
+      <option id="course">MCA</option>
+      <option id="course">MBA</option>
+      <option id="course">MSC</option>
+      <option id="course">M PHAR</option></select
+
+    ><br /><br />
+    <label for="select"
+      ><b>How likely is that you would<br />recommend free code camp to your
+      friend?</b><br /></label
+    ><br />
+    <input type="radio" name="select" />Definetly<br />
+    <input type="radio" name="select" />May be<br />
+    <input type="radio" name="select" />Not sure<br />
+    <label for=""><b>What do you like most in free code camp?</b></label>
+    <select for="select">
+      <option id="select">Frontend</option>
+      <option id="select">Backend</option>
+      <option id="select">Mocks</option></select
+    ><br /><br />
+    <label for="mark"
+      ><b>Things that we should be improved in future&nbsp;&nbsp; (mark all that
+      apply</b>)</label
+    ><br />
+    <input type="checkbox" name="mark" />Frontend<br />
+    <input type="checkbox" name="mark" />Backend<br />
+    <input type="checkbox" name="mark" />projects<br />
+    <input type="checkbox" name="mark" />Mocks<br /><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" value="submit">
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
