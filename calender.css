@@ -1,0 +1,84 @@
+.container{
+    border: 1px solid none;
+    height: 90vh;
+    width: 80%;
+    background-color: lightgrey;
+    background-image: url(./seablue\ back.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 150px;
+    border-radius: 5%;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    color:rgb(236, 11, 11);
+    text-shadow: 2px 2px 5px black;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    gap: 10px 15px;
+
+}
+.b1{
+    border: 1px solid black;
+    height: 160px;
+    width: 250px; 
+    box-shadow: 5px 5px 5px 2px black;
+    border-radius: 10px;  
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    gap: 10px 15px;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+    gap: 10px 15px;
+}
+.m1{
+    border: 1px solid black;
+    height: 20px;
+    width: 250px;
+    text-align: center;
+    color: white;
+    background-color: navy;
+}
+.w1{
+    border: 1px solid black;
+    height: 20px;
+    width: 250px;
+    color:rgb(139, 15, 15);
+    background-color: rgb(13, 183, 240);
+    text-shadow: 1px 1px 2px red;
+}
+.week{
+    margin-left: 22px;
+    font-size: 16px;
+}
+.week1{
+    display: flex;
+    flex-wrap: wrap
+}
+.a{
+    margin-left: 18px;
+    font-size: 16px;
+}
+.week2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.b{
+    margin-left: 20px;
+    font-size: 16px; 
+}
